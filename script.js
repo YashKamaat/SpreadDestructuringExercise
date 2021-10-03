@@ -44,7 +44,10 @@ musical: "Hamilton",
 console.log(streamingMovies);
 // ================
 // 3a
-const
+const disneyJunior = [
+    "Mickey Mouse Clubhouse",
+    "Spidey and His Amazing Friends"
+];
 // ================
 // 3b
 // ================

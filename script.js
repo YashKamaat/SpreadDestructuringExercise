@@ -50,20 +50,35 @@ const disneyJunior = [
 ];
 // ================
 // 3b
+const [ mickey, spidey] = disneyJunior;
 // ================
 // 3c
+console.log(mickey,spidey);
 // ================
 // 4a
+const avengers = {
+    warMacine: "James Rhodes",
+    theHulk: "Bruce Banner"
+};
 // ================
 // 4b
+const {warMachine, theHulk} = avengers;
 // ================
 // 4c
+console.log(warMachine, theHulk);
 // ================
 // 4d
+const moreAvengers = {
+    blackWidow: "Natasha Romanoff",
+    hawkeye: "Clint Barton",
+    ironMan: "Tony Stark"
+};
 // ================
 // 4e
+const { blackWidow: nat, ...others} = moreAvengers;
 // ================
 // 4f
+console.log(nat, others);
 // ================
 // 5a
 // ================
